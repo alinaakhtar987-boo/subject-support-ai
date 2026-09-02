@@ -240,7 +240,7 @@ export function StudyAssistant() {
                 />
                 <PromptInputFooter className="justify-end">
                   <PromptInputSubmit
-                    status={loading ? "streaming" : undefined}
+                    status={loading ? "streaming" : "ready"}
                     disabled={loading || input.trim().length === 0}
                   />
                 </PromptInputFooter>
